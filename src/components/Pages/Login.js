@@ -47,7 +47,7 @@ const Login = () => {
       }
     } catch (error) {
       dispatch({ type: 'LOGIN_FAILURE', payload: error.message });
-      console.error(error); 
+      // console.error(error); 
       alert('An error occurred while logging in.'); 
     }
   };
